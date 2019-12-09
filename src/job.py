@@ -39,5 +39,5 @@ if __name__ == '__main__':
     # Persiste os dados processados.
     write_converted_data(df_users_converted, OUTPUT_USERS_PROCESSED_DATA_FILE)
 
-    print(spark.read.parquet(OUTPUT_USERS_PROCESSED_DATA_FILE).show())
+    
 
